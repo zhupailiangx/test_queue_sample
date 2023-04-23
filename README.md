@@ -1,6 +1,6 @@
 # test_queue_sample
 ## 引言
-这个示例旨在分析Linux和windows上queue性能不同，分别测试每个计算单元建立哈希表的时间并分析和系统的关系。
+这个示例旨在分析Linux和windows上queue性能不同，对不同设备、不同queues、相同queue的三种场景分别做了测试。
 
 ### 在Linux系统上
 * Install oneapi(2023.0.0)
@@ -20,9 +20,9 @@
 * 选择菜单 "Project > Build" ，然后执行代码
      
 
-
-### Linux 上测试结果
-下面分别是在opencl:gpu和level_zero:gpu上的测试结果
+### 不同设备测试
+#### Linux 上测试结果
+下面分别是在opencl:gpu和level_zero:gpu上的测试结果，cpu结果不在这里展示他，可以在代码运行结果中查看。
 ```bash
 Device: opencl:gpu
 Queue: 0
@@ -57,8 +57,8 @@ Queue: 3
 ...
 
 ```
-### Windows上测试结果
-下面分别是在opencl:gpu和ext_oneapi_level_zero:gpu上的测试结果
+#### Windows上测试结果
+下面分别是在opencl:gpu和level_zero:gpu上的测试结果，cpu结果不在这里展示，可以在代码运行结果中查看。
 ```bash
 Device: opencl:gpu
 
@@ -94,5 +94,68 @@ Queue: 3
 ...
 
 ```
+### 不同queues测试
+#### Linux 结果
+```bash
+Test with two queues:
+
+queue1 build hash table time=7ms
+
+queue2 build hash table time=7ms
+ 
+```
+#### Windows 结果
+```bash
+Test with two queues:
+
+queue1 build hash table time=122ms
+
+queue2 build hash table time=132ms
+ 
+```
+
+### 相同queue测试
+#### Linux 结果
+```bash
+Test with the same queue:
+Loop = 1
+  build hash table time=7ms
+
+Loop = 2
+  build hash table time=7ms
+
+Loop = 3
+  build hash table time=7ms
+
+Loop = 4
+  build hash table time=7ms
+
+Loop = 5
+  build hash table time=7ms
+```
+
+#### Windows 结果
+```bash
+Test with the same queue:
+Loop = 1
+  build hash table time=132ms
+
+Loop = 2
+  build hash table time=3ms
+
+Loop = 3
+  build hash table time=3ms
+
+Loop = 4
+  build hash table time=2ms
+
+Loop = 5
+  build hash table time=3ms
+```
+
+
 ## 总结
-本示例对比了linux 和Windows系统GPU设备queue建立哈希表的性能区别。结果表明，在同一个GPU设备下，Linux系统任意queue建立哈希表之后，后面再使用同一个设备的queue建立哈希表，时间会大大缩短，而Windows系统则不行。
+本示例对比了linux 和Windows系统不同设备、不同queues、相同queue三种场景建立哈希表的性能区别。结果表明：
+* 在同一个GPU设备下，Linux系统任意queue建立哈希表之后，后面再使用同一个设备的queue建立哈希表，时间会大大缩短，而Windows系统则不行。
+* 在相同设备不同queues下，Linux二次建表时间很短，Windows系统由于queue 重新初始化的原因，还需要花费和第一次相当的时间。
+* 在相同queue下，都是初次建立哈希表需要花费一定时间，二次建表时间很短。
