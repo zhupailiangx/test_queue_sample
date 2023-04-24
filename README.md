@@ -38,8 +38,8 @@
  <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
  <tr height=20 style='height:15.0pt'>
   <td rowspan=3 height=60 class=xl65 width=64 style='height:45.0pt;width:48pt'>loop</td>
-  <td colspan=5 class=xl65 width=495 style='border-left:none;width:371pt'>Linux</td>
-  <td colspan=5 class=xl65 width=377 style='border-left:none;width:283pt'>Windows</td>
+  <td colspan=5 class=xl65 width=495 style='border-center:none;width:371pt'>Linux</td>
+  <td colspan=5 class=xl65 width=377 style='border-center:none;width:283pt'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td colspan=2 height=20 class=xl65 style='height:15.0pt;border-left:none'>different
