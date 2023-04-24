@@ -157,7 +157,7 @@ Loop = 5
 
 ## Summary
 This sample compares the performance difference of building a hash table in three scenarios of different devices, different queues, and the same queue in Linux and Windows systems.
-* Under different GPU devices, after creating a hash table for any queue in the Linux system, and then using the queue of the same device to build the hash table later, the time will be greatly shortened, but not in the Windows system.\
-* Under the same device and different queues, the second table creation time of Linux is very short, and the Windows system still needs to spend the same time as the first time due to the reason of queue reinitialization.\
+* Under different GPU devices, after creating a hash table for any queue in the Linux system, and then using the queue of the same device to build the hash table later, the time will be greatly shortened, but not in the Windows system.
+* Under the same device and different queues, the second table creation time of Linux is very short, and the Windows system still needs to spend the same time as the first time due to the reason of queue reinitialization.
 * Under the same queue, it takes a certain amount of time to build the hash table for the first time, and the second time to build the table is very short.\
 Finally, on the Linux system, it can be understood that performing the same operation on the same device will improve performance, while Windows requires the same queue to improve performance.
