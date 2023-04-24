@@ -20,14 +20,13 @@
 * 选择菜单 "Project > Build" ，然后执行代码
      
 
-### 不同设备测试
-|    Linux                                   |     Windows                   |
+### 不同设备测试               
 
 
 
 
 
-|  i7-1165G7   |    JIT     | USE_DPL    |  MULTI_TEMPLATE | transform time(ms)  | sort time(ms)   |
+|  i7-1165G7   |    different devices     | USE_DPL    |  MULTI_TEMPLATE | transform time(ms)  | sort time(ms)   |
 |  ----        | ----       | ----       | ----            |  ----               |    ----         |
 |  Linux       |    ON      | ON         |     ON          |    **41.6**         |    5.4          |
 |              |    ON      | ON         |     OFF         |    40.5             |    5.4          |
