@@ -28,7 +28,7 @@
 
 |  i7-1165G7   |  Loop|  different devices     | different queues    |  same queue | 
 | ----         |----  |----                    |-----                |----         |
-|              |      |opencl:gpu|level_zero:gpu|    queue1   |queue2|             |
+|              |      |opencl:gpu|level_zero:gpu|    queue1   |queue2|       queue |
 |  Linux       |      |          |              |             |      |             |
 |              |      |          |              |             |      |             |
 |              |      |          |              |             |      |             |
