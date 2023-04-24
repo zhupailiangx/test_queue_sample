@@ -21,6 +21,18 @@
      
 
 ### 不同设备测试
+|  i7-1165G7   |    JIT     | USE_DPL    |  MULTI_TEMPLATE | transform time(ms)  | sort time(ms)   |
+|  ----        | ----       | ----       | ----            |  ----               |    ----         |
+|  Linux       |    ON      | ON         |     ON          |    **41.6**         |    5.4          |
+|              |    ON      | ON         |     OFF         |    40.5             |    5.4          |
+|              |    ON      | OFF        |     ON          |    0.001            |    5.4          |
+|              |    ON      | OFF        |     OFF         |    0.001            |    5.4          |
+|  Windows     |    ON      | ON         |     ON          |    **72.3**         |    **5.4**      |
+|              |    ON      | ON         |     OFF         |    **70.9**         |    5.4          |
+|              |    ON      | OFF        |     ON          |    0.001            |    5.4          |
+|              |    ON      | OFF        |     OFF         |    0.001            |    5.4          |
+
+
 #### Linux 上测试结果
 下面分别是在opencl:gpu和level_zero:gpu上的测试结果，cpu结果不在这里展示他，可以在代码运行结果中查看。
 ```bash
