@@ -38,8 +38,8 @@
  <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
  <tr height=20 style='height:15.0pt'>
   <td rowspan=3 height=60 class=xl65 width=64 style='height:45.0pt;width:48pt'>loop</td>
-  <td colspan=5 class=xl65 width=495 style='border-center:none;width:371pt'>Linux</td>
-  <td colspan=5 class=xl65 width=377 style='border-center:none;width:283pt'>Windows</td>
+  <td colspan=5 class=xl65 width=495 style='border-left:none;width:371pt'>Linux</td>
+  <td colspan=5 class=xl65 width=377 style='border-left:none;width:283pt'>Windows</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td colspan=2 height=20 class=xl65 style='height:15.0pt;border-left:none'>different
@@ -65,55 +65,55 @@
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>1</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>60ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>57ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>57ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>57ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>151ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>149ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>122ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>132ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>132ms</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>2</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>140ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>153ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>3ms</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>3</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>136ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>143ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>3ms</td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 class=xl65 style='height:15.0pt;border-top:none'>4</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>7ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>137ms</td>
+  <td class=xl65 style='border-top:none;border-left:none'>153ms</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
   <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
-  <td class=xl65 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl65 style='border-top:none;border-left:none'>2ms</td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
@@ -132,22 +132,7 @@
  <![endif]>
 </table>
 
-</body>
-
-
-
-
-|  i7-1165G7   |  Loop|  different devices      | different queues   |  same queue | 
-| ----         |----  |----                     | ----               |----         |
-|              |      |opencl:gpu|level_zero:gpu|    queue1   |queue2|       queue |
-|  Linux       |      |          |              |             |      |             |
-|              |      |          |              |             |      |             |
-|              |      |          |              |             |      |             |
-|              |      |          |              |             |      |             |
-|  Windows     |      |          |              |             |      |             |
-|              |      |          |              |             |      |             |
-|              |      |          |              |             |      |             |
-|              |      |          |              |             |      |             |
+** 下面可以分别查看不同的测试结果 **
 
 
 #### Linux 上测试结果
