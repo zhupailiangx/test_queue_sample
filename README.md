@@ -21,7 +21,7 @@
      
 
 ### 不同设备测试
-|    Linux                                   |     Windows
+|    Linux                                   |     Windows                   |
 
 
 
