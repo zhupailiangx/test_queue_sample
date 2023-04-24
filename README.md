@@ -21,6 +21,8 @@
      
 
 ### 不同设备测试  
+<body link="#0563C1" vlink="#954F72">
+
 <table border=0 cellpadding=0 cellspacing=0 width=936 style='border-collapse:
  collapse;table-layout:fixed;width:702pt'>
  <col width=64 style='width:48pt'>
@@ -129,6 +131,8 @@
  </tr>
  <![endif]>
 </table>
+
+</body>
 
 
 
