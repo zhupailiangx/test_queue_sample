@@ -26,7 +26,8 @@
 
 
 
-|  i7-1165G7   |    different devices     | USE_DPL    |  MULTI_TEMPLATE | transform time(ms)  | sort time(ms)   |
+|  i7-1165G7   |  Loop|  different devices     | different queues    |  same queue | 
+|              |      |opencl:gpu|level_zero:gpu|    queue1   |queue2    |
 |  ----        | ----       | ----       | ----            |  ----               |    ----         |
 |  Linux       |    ON      | ON         |     ON          |    **41.6**         |    5.4          |
 |              |    ON      | ON         |     OFF         |    40.5             |    5.4          |
