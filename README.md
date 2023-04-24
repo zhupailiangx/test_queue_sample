@@ -21,6 +21,12 @@
      
 
 ### 不同设备测试
+|    Linux                                   |     Windows
+
+
+
+
+
 |  i7-1165G7   |    JIT     | USE_DPL    |  MULTI_TEMPLATE | transform time(ms)  | sort time(ms)   |
 |  ----        | ----       | ----       | ----            |  ----               |    ----         |
 |  Linux       |    ON      | ON         |     ON          |    **41.6**         |    5.4          |
