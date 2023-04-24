@@ -20,7 +20,118 @@
 * 选择菜单 "Project > Build" ，然后执行代码
      
 
-### 不同设备测试               
+### 不同设备测试  
+<table border=0 cellpadding=0 cellspacing=0 width=936 style='border-collapse:
+ collapse;table-layout:fixed;width:702pt'>
+ <col width=64 style='width:48pt'>
+ <col width=108 span=2 style='mso-width-source:userset;mso-width-alt:3949;
+ width:81pt'>
+ <col width=113 style='mso-width-source:userset;mso-width-alt:4132;width:85pt'>
+ <col width=83 span=2 style='mso-width-source:userset;mso-width-alt:3035;
+ width:62pt'>
+ <col width=76 style='mso-width-source:userset;mso-width-alt:2779;width:57pt'>
+ <col width=100 style='mso-width-source:userset;mso-width-alt:3657;width:75pt'>
+ <col width=64 style='width:48pt'>
+ <col width=54 style='mso-width-source:userset;mso-width-alt:1974;width:41pt'>
+ <col width=83 style='mso-width-source:userset;mso-width-alt:3035;width:62pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td rowspan=3 height=60 class=xl65 width=64 style='height:45.0pt;width:48pt'>loop</td>
+  <td colspan=5 class=xl66 width=495 style='border-left:none;width:371pt'>Linux</td>
+  <td colspan=5 class=xl66 width=377 style='border-left:none;width:283pt'>Windows</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td colspan=2 height=20 class=xl66 style='height:15.0pt;border-left:none'>different
+  device</td>
+  <td colspan=2 class=xl66 style='border-left:none'>different queues</td>
+  <td class=xl67 style='border-top:none;border-left:none'>same queue</td>
+  <td colspan=2 class=xl66 style='border-left:none'>different device</td>
+  <td colspan=2 class=xl66 style='border-left:none'>different queues</td>
+  <td class=xl67 style='border-top:none;border-left:none'>same queue</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 style='height:15.0pt;border-top:none;border-left:
+  none'>opencl:gpu</td>
+  <td class=xl67 style='border-top:none;border-left:none'>level_zero:gpu</td>
+  <td class=xl67 style='border-top:none;border-left:none'>queue1</td>
+  <td class=xl67 style='border-top:none;border-left:none'>queue2</td>
+  <td class=xl67 style='border-top:none;border-left:none'>queue</td>
+  <td class=xl67 style='border-top:none;border-left:none'>opencl:gpu</td>
+  <td class=xl67 style='border-top:none;border-left:none'>level_zero:gpu</td>
+  <td class=xl67 style='border-top:none;border-left:none'>queue1</td>
+  <td class=xl67 style='border-top:none;border-left:none'>queue2</td>
+  <td class=xl67 style='border-top:none;border-left:none'>queue</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 align=right style='height:15.0pt;border-top:none'>1</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 align=right style='height:15.0pt;border-top:none'>2</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 align=right style='height:15.0pt;border-top:none'>3</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 align=right style='height:15.0pt;border-top:none'>4</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+  <td class=xl67 style='border-top:none;border-left:none'>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=108 style='width:81pt'></td>
+  <td width=108 style='width:81pt'></td>
+  <td width=113 style='width:85pt'></td>
+  <td width=83 style='width:62pt'></td>
+  <td width=83 style='width:62pt'></td>
+  <td width=76 style='width:57pt'></td>
+  <td width=100 style='width:75pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=54 style='width:41pt'></td>
+  <td width=83 style='width:62pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+
+
 
 |  i7-1165G7   |  Loop|  different devices      | different queues   |  same queue | 
 | ----         |----  |----                     | ----               |----         |
