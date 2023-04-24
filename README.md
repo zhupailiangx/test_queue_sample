@@ -27,16 +27,17 @@
 
 
 |  i7-1165G7   |  Loop|  different devices     | different queues    |  same queue | 
-|              |      |opencl:gpu|level_zero:gpu|    queue1   |queue2    |
-|  ----        | ----       | ----       | ----            |  ----               |    ----         |
-|  Linux       |    ON      | ON         |     ON          |    **41.6**         |    5.4          |
-|              |    ON      | ON         |     OFF         |    40.5             |    5.4          |
-|              |    ON      | OFF        |     ON          |    0.001            |    5.4          |
-|              |    ON      | OFF        |     OFF         |    0.001            |    5.4          |
-|  Windows     |    ON      | ON         |     ON          |    **72.3**         |    **5.4**      |
-|              |    ON      | ON         |     OFF         |    **70.9**         |    5.4          |
-|              |    ON      | OFF        |     ON          |    0.001            |    5.4          |
-|              |    ON      | OFF        |     OFF         |    0.001            |    5.4          |
+| ----         |----  |----                    |-----                |----         |
+|              |      |opencl:gpu|level_zero:gpu|    queue1   |queue2|             |
+|  ----        | ---- | ----     | ----         |  ----       | ---- |             | 
+|  Linux       |      |          |              |             |      |             |
+|              |      |          |              |             |      |             |
+|              |      |          |              |             |      |             |
+|              |      |          |              |             |      |             |
+|  Windows     |      |          |              |             |      |             |
+|              |      |          |              |             |      |             |
+|              |      |          |              |             |      |             |
+|              |      |          |              |             |      |             |
 
 
 #### Linux 上测试结果
