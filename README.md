@@ -20,7 +20,7 @@
 * 选择菜单 "Project > Build" ，然后执行代码
      
 
-### 不同设备测试  
+### 测试结果  
 <body link="#0563C1" vlink="#954F72">
 
 <table border=0 cellpadding=0 cellspacing=0 width=936 style='border-collapse:
@@ -132,140 +132,6 @@
  <![endif]>
 </table>
 
-**下面可以分别查看不同的测试结果**
-
-
-#### Linux 上测试结果
-下面分别是在opencl:gpu和level_zero:gpu上的测试结果，cpu结果不在这里展示他，可以在代码运行结果中查看。
-```bash
-Device: opencl:gpu
-Queue: 0
- build hash table time=60ms
-
-Queue: 1
- build hash table time=7ms
-
-Queue: 2
- build hash table time=7ms
-
-Queue: 3
- build hash table time=7ms
- 
-...
-
-____________________________________________
-
-Device: ext_oneapi_level_zero:gpu
-Queue: 0
- build hash table time=57ms
-
-Queue: 1
- build hash table time=7ms
-
-Queue: 2
- build hash table time=7ms
-
-Queue: 3
- build hash table time=7ms
-
-...
-
-```
-#### Windows上测试结果
-下面分别是在opencl:gpu和level_zero:gpu上的测试结果，cpu结果不在这里展示，可以在代码运行结果中查看。
-```bash
-Device: opencl:gpu
-
-Queue: 0
- build hash table time=151ms
-
-Queue: 1
- build hash table time=140ms
-
-Queue: 2
- build hash table time=136ms
-
-Queue: 3
- build hash table time=137ms
- 
-...
-
-____________________________________________
-
-Device: ext_oneapi_level_zero:gpu
-Queue: 0
- build hash table time=149ms
-
-Queue: 1
- build hash table time=153ms
-
-Queue: 2
- build hash table time=143ms
-
-Queue: 3
- build hash table time=150ms
-
-...
-
-```
-### 不同queues测试
-#### Linux 结果
-```bash
-Test with two queues:
-
-queue1 build hash table time=7ms
-
-queue2 build hash table time=7ms
- 
-```
-#### Windows 结果
-```bash
-Test with two queues:
-
-queue1 build hash table time=122ms
-
-queue2 build hash table time=132ms
- 
-```
-
-### 相同queue测试
-#### Linux 结果
-```bash
-Test with the same queue:
-Loop = 1
-  build hash table time=7ms
-
-Loop = 2
-  build hash table time=7ms
-
-Loop = 3
-  build hash table time=7ms
-
-Loop = 4
-  build hash table time=7ms
-
-Loop = 5
-  build hash table time=7ms
-```
-
-#### Windows 结果
-```bash
-Test with the same queue:
-Loop = 1
-  build hash table time=132ms
-
-Loop = 2
-  build hash table time=3ms
-
-Loop = 3
-  build hash table time=3ms
-
-Loop = 4
-  build hash table time=2ms
-
-Loop = 5
-  build hash table time=3ms
-```
 
 
 ## 总结
